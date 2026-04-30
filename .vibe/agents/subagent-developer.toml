@@ -1,0 +1,5 @@
+display_name = "Subagent Developer"
+description = "Executes implementation plans by dispatching fresh subagent per task, with two-stage review after each: spec compliance review first, then code quality review. Follows the subagent-driven-development methodology."
+safety = "neutral"
+agent_type = "subagent"
+enabled_tools = ["task", "read_file", "grep", "ask_user_question"]

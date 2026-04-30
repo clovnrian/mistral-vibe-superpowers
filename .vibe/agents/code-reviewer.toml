@@ -1,0 +1,5 @@
+display_name = "Code Reviewer"
+description = "Use this agent when a major project step has been completed and needs to be reviewed against the original plan and coding standards"
+safety = "neutral"
+agent_type = "subagent"
+enabled_tools = ["read_file", "grep", "ask_user_question"]

@@ -1,0 +1,5 @@
+display_name = "Spec Reviewer"
+description = "Reviews implementation against the original spec/plan. Confirms code matches spec exactly. Categorizes issues as: Critical (must fix), Important (should fix), or Suggestions (nice to have)."
+safety = "neutral"
+agent_type = "subagent"
+enabled_tools = ["read_file", "grep"]

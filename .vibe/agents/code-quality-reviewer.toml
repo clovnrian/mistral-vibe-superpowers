@@ -1,0 +1,5 @@
+display_name = "Code Quality Reviewer"
+description = "Reviews code quality: adherence to patterns, error handling, type safety, organization, naming, maintainability, test coverage. Assesses security vulnerabilities and performance issues."
+safety = "neutral"
+agent_type = "subagent"
+enabled_tools = ["read_file", "grep", "bash"]

@@ -2,7 +2,7 @@
 name: verification-before-completion
 description: "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always"
 license: MIT
-compatibility: Python 3.12+
+compatibility: language-agnostic
 user-invocable: true
 allowed-tools:
   - read_file
